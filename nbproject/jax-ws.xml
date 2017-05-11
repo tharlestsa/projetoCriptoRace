@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="CandidatoService">
+      <implementation-class>br.tatuapu.service.CandidatoService</implementation-class>
+    </service>
+    <service name="PontuadorService">
+      <implementation-class>br.tatuapu.service.PontuadorService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

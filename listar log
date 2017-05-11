@@ -1,0 +1,2 @@
+rhc tail -f app-root/logs/jbossews.log* -a server2
+
