@@ -20,9 +20,7 @@ public class ConnectionDAO {
     public static Connection getConnection() throws Exception {
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            //CONEXÃO DO SERVER 1//return DriverManager.getConnection("jdbc:mysql://127.13.44.2:3306/criptoRace", "admin1UJKFW4", "UYCpHuz68gJb");
-            return DriverManager.getConnection("jdbc:mysql://127.11.14.130:3306/criptoRace", "adminR8VITjF", "dpMSCa9VkBzH");//SERVER2
-            //return DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/criptoRace", "root", "hullopes");//local
+            return DriverManager.getConnection("jdbc:mysql://127.11.14.130:3306/criptoRace", "user", "senha");//SERVER2
         } catch (ClassNotFoundException | SQLException e) {
             throw new Exception(e.getMessage());
         }
